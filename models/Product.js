@@ -40,8 +40,15 @@ Product.init(
         key: 'id',
         unique: false,
       }
-
     },
+    // tagIds:{
+    //   type: DataTypes.INTEGER,
+    //   references:{
+    //     model: 'tag',
+    //     key: 'id',
+    //     unique: false,
+    //   }
+    // },
   },
   {
     sequelize,
